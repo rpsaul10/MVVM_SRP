@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_fn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/n_one"
+        android:autofillHints="true"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:id="@+id/et_sn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/n_two"
+        android:autofillHints="true"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_mul"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/res"
+            android:textSize="@dimen/big"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/big"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hist"
+        android:textSize="@dimen/big"
+        android:layout_marginTop="@dimen/big"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/tv_his"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_hist"
+        android:layout_marginTop="@dimen/big"/>
+
+</LinearLayout>

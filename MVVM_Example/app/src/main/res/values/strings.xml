@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVM_Example</string>
+    <string name="btn_mul">Multiply</string>
+    <string name="empty_hist">Empty History</string>
+    <string name="n_one">First Number</string>
+    <string name="n_two">Second Number</string>
+    <string name="res">Result:</string>
+    <string name="hist">History:</string>
+</resources>
